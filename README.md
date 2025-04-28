@@ -2,7 +2,7 @@
 
 build an SSR application with Supabase.
 
-install relation npm package
+Install the related npm packages.
 
 ```sh
 # init project
