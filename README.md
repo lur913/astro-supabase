@@ -2,6 +2,27 @@
 
 build an SSR application with Supabase.
 
+install relation npm package
+
+```sh
+# init project
+pnpm create astro@latest
+
+# integate vercel adapter
+pnpm astro add vercel
+# Or
+pnpm add @astrojs/vercel
+
+# integate supabase sdk
+pnpm add @supabase/supabase-js
+
+# integate tailwindcss
+pnpm astro add tailwind
+# Or
+pnpm add tailwindcss @tailwindcss/vite
+
+```
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:

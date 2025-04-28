@@ -1,0 +1,17 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+const inputClass = "bg-white border border-slate-600 text-black"
+---
+
+<Layout title="注册">
+  <h1 class="text-3xl font-bold">注册页面</h1>
+  <p>已经有一个账号? <a href="/signin" class="text-blue-600 underline">登录</a></p>
+  <form action="/api/auth/register" method="post">
+    <label for="email">邮箱</label>
+    <input type="email" name="email" id="email" class={inputClass}/>
+    <label for="password">密码</label>
+    <input type="password" name="password" id="password" class={inputClass}/>
+    <button type="submit" class="bg-blue-600 py-1 px-3 rounded">注册</button>
+  </form>
+</Layout>
