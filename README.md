@@ -8,15 +8,15 @@ Install the related npm packages.
 # init project
 pnpm create astro@latest
 
-# integate vercel adapter
+# integrate vercel adapter
 pnpm astro add vercel
 # Or
 pnpm add @astrojs/vercel
 
-# integate supabase sdk
+# integrate supabase sdk
 pnpm add @supabase/supabase-js
 
-# integate tailwindcss
+# integrate tailwindcss
 pnpm astro add tailwind
 # Or
 pnpm add tailwindcss @tailwindcss/vite
